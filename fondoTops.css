@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-image:url(gim.jpg);
+
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+
+video{
+    max-width: 320px;
+    height: 750px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 50px;
+    
+}
+.text-box{
+  
+    color:azure;
+}
+.text-box h2{
+    font-size: 42px;
+    margin-bottom: 20px; 
+}
+.text-box p{
+    margin-bottom: 20px; 
+    font-size: 26px;
+}
